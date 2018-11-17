@@ -1,0 +1,100 @@
+body.main {
+    background-color: aqua;
+}
+
+div nav {
+    text-align: center;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 50px;
+    box-sizing: border-box;
+    transition: .3s;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    line-height: 80px;
+    color: #151515;
+    padding: 12px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .3s;
+
+}
+
+.outer {
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .middle {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  
+  .inner {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    /*whatever width you want*/
+  }
+
+    .center {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin:auto;
+            text-align: center;
+            top: 100px;
+            right: 0;
+            bottom:0;
+            left:0;
+            }
+
+.icon {
+    width: 200;
+    height: 50;
+}
+          
+.centericon {
+    text-align: center;
+    padding-top: 90;
+    margin-top: 60px;
+
+    
+}
+
+.button {
+    background-color: transparent;
+    border: 30;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 50px;
+    font-weight: bold;
+      }
+.cta {
+    text-align: center;
+}
